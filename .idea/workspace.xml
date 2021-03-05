@@ -259,7 +259,7 @@
       <workItem from="1614809807396" duration="60000" />
       <workItem from="1614809878411" duration="1000" />
       <workItem from="1614809890657" duration="3862000" />
-      <workItem from="1614899739651" duration="5047000" />
+      <workItem from="1614899739651" duration="6339000" />
     </task>
     <servers />
   </component>
@@ -271,5 +271,9 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1614811980487" />
+    <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1614916778255">
+      <screen x="0" y="23" width="1395" height="877" />
+    </state>
+    <state x="403" y="76" width="598" height="822" key="find.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1614916778255" />
   </component>
 </project>
