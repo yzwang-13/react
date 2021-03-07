@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/registerServiceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -76,8 +88,7 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1-base-syntax/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.js" afterDir="false" />
@@ -263,6 +274,7 @@
       <workItem from="1614809890657" duration="3862000" />
       <workItem from="1614899739651" duration="10849000" />
       <workItem from="1614999856233" duration="840000" />
+      <workItem from="1615084778467" duration="370000" />
     </task>
     <servers />
   </component>
