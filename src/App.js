@@ -4,6 +4,8 @@ import Person from './Person/Person';
 
 class App extends Component {
 
+
+
     state = {
         persons: [
             {name: 'Max', age: 28},
@@ -36,10 +38,20 @@ class App extends Component {
     }
 
     render() {
+
+        const style = {
+            backgroundColor: "green",
+            color: "white",
+            font: "inherit",
+            border: '1px solid blue',
+            padding: '8px',
+            cursor: 'pointer'
+        };
+
         return (
             <div className="App">
                 <h1 className="App">Hi I am a react app</h1>
-                <button onClick={this.switchNameHandler}>Switch Name</button>
+                <button style={style} onClick={this.switchNameHandler}>Switch Name</button>
                 <Person clicked={this.switchNameHandler} name={this.state.persons[0].name}
                         age={this.state.persons[0].age}
                         changed={this.nameChangedHandler}/>
