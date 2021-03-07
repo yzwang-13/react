@@ -9,10 +9,8 @@
       <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/registerServiceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
@@ -88,7 +86,6 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1-base-syntax/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1-base-syntax/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1-base-syntax/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -258,7 +255,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -275,7 +272,8 @@
       <workItem from="1614809890657" duration="3862000" />
       <workItem from="1614899739651" duration="10849000" />
       <workItem from="1614999856233" duration="840000" />
-      <workItem from="1615084778467" duration="744000" />
+      <workItem from="1615084778467" duration="790000" />
+      <workItem from="1615086338607" duration="18000" />
     </task>
     <servers />
   </component>
@@ -287,6 +285,10 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1615085266835" />
+    <state x="159" y="95" key="SettingsEditor" timestamp="1615086355635">
+      <screen x="0" y="23" width="1395" height="877" />
+    </state>
+    <state x="159" y="95" key="SettingsEditor/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1615086355635" />
     <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1614916778255">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
