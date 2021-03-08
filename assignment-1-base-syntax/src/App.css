@@ -26,3 +26,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.User-output div {
+  text-align: center;
+  background-color: blue;
+  box-shadow: #cccccc;
+  border: 1px solid #cccccc;
+}
+

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment1-base-syntax/src/registerServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-1-base-syntax/src/User/UserInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-1-base-syntax/src/User/UserOutput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -86,7 +78,11 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1-base-syntax/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-1-base-syntax/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-1-base-syntax/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-1-base-syntax/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-1-base-syntax/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-1-base-syntax/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-1-base-syntax/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.js" afterDir="false" />
@@ -224,8 +220,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -273,7 +269,7 @@
       <workItem from="1614899739651" duration="10849000" />
       <workItem from="1614999856233" duration="840000" />
       <workItem from="1615084778467" duration="790000" />
-      <workItem from="1615086338607" duration="18000" />
+      <workItem from="1615086338607" duration="4621000" />
     </task>
     <servers />
   </component>
@@ -281,10 +277,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615085266835">
+    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615086937313">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
-    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1615085266835" />
+    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1615086937313" />
     <state x="159" y="95" key="SettingsEditor" timestamp="1615086355635">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
