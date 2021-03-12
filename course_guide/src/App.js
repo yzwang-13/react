@@ -5,26 +5,30 @@ import Person from './Person/Person';
 class App extends Component {
 
 
-
     state = {
         persons: [
             {name: 'Max', age: 28},
             {name: 'Wilson', age: 29},
             {name: 'Elevyn', age: 29}
         ],
-        otherState: "Some other value"
+        otherState: "Some other value",
+        showPersons: false
     }
 
-    switchNameHandler = (newName) => {
+    switchNameHandler = () => {
         // console.log("was clicked");
         // merge the old state with the new one, will not override old state.
         this.setState({
             persons: [
-                {name: newName, age: 0},
+                {name: "aaa", age: 0},
                 {name: 'BBB', age: 0},
                 {name: 'CCC', age: 0}
             ]
         });
+        const doesShow = this.state.showPersons;
+        this.setState({
+            showPersons: !doesShow
+        })
     }
 
     nameChangedHandler = (event) => {
@@ -35,6 +39,10 @@ class App extends Component {
                 {name: 'CCC', age: 0}
             ]
         })
+    }
+
+    togglePersonHandler = () => {
+
     }
 
     render() {
@@ -48,17 +56,28 @@ class App extends Component {
             cursor: 'pointer'
         };
 
+        // check if the showPersons == true
+        let persons = null;
+        if (this.state.showPersons) {
+            persons = (
+                <div>
+                    <Person clicked={this.switchNameHandler} name={this.state.persons[0].name}
+                            age={this.state.persons[0].age}
+                            changed={this.nameChangedHandler}/>
+                    <Person clicked={() => this.switchNameHandler("NewName 3 Anonymous function call")}
+                            name={this.state.persons[1].name} age={this.state.persons[1].age}/>
+                    <Person clicked={this.switchNameHandler.bind(this, "NewName 4")}
+                            name={this.state.persons[2].name}
+                            age={this.state.persons[2].age}></Person>
+                </div>
+            )
+        }
+
         return (
             <div className="App">
                 <h1 className="App">Hi I am a react app</h1>
                 <button style={style} onClick={this.switchNameHandler}>Switch Name</button>
-                <Person clicked={this.switchNameHandler} name={this.state.persons[0].name}
-                        age={this.state.persons[0].age}
-                        changed={this.nameChangedHandler}/>
-                <Person clicked={() => this.switchNameHandler("NewName 3 Anonymous function call")}
-                        name={this.state.persons[1].name} age={this.state.persons[1].age}/>
-                <Person clicked={this.switchNameHandler.bind(this, "NewName 4")} name={this.state.persons[2].name}
-                        age={this.state.persons[2].age}></Person>
+                {persons}
             </div>
         );
     }
