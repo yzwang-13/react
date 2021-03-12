@@ -16,13 +16,22 @@ class App extends Component {
     }
 
 
-    nameChangedHandler = (event) => {
+    nameChangedHandler = (event, id) => {
+        const personIndex = this.state.persons.findIndex( person => {
+            // return true if person.id === id
+            return person.id === id;
+        })
+
+        // deep copy of the object
+        const person = {...this.state.persons[personIndex]};
+        person.name = event.target.value;
+        console.log(person)
+
+        const persons = [...this.state.persons];
+        persons[personIndex] = person;
+
         this.setState({
-            persons: [
-                {name: event.target.value, age: 0},
-                {name: 'BBB', age: 0},
-                {name: 'CCC', age: 0}
-            ]
+            persons: persons
         })
     }
 
@@ -62,10 +71,10 @@ class App extends Component {
                     {this.state.persons.map((person, index) => {
                         return (
                             <Person
-                                key={person.Id}
+                                key={person.id}
                                 name={person.name}
                                 age={person.age}
-                                changed={this.nameChangedHandler}
+                                changed={(event) => this.nameChangedHandler(event, person.id)}
                                 clicked={() => this.deletePersonHandler(index)}
                             />
                         )
