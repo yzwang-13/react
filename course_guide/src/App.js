@@ -7,29 +7,14 @@ class App extends Component {
 
     state = {
         persons: [
-            {name: 'Max', age: 28},
-            {name: 'Wilson', age: 29},
-            {name: 'Elevyn', age: 29}
+            {name: 'Max', id: 123456, age: 28},
+            {name: 'Wilson', id: 123, age: 29},
+            {name: 'Elevyn', id: 456, age: 29}
         ],
         otherState: "Some other value",
         showPersons: false
     }
 
-    switchNameHandler = () => {
-        // console.log("was clicked");
-        // merge the old state with the new one, will not override old state.
-        this.setState({
-            persons: [
-                {name: "aaa", age: 0},
-                {name: 'BBB', age: 0},
-                {name: 'CCC', age: 0}
-            ]
-        });
-        const doesShow = this.state.showPersons;
-        this.setState({
-            showPersons: !doesShow
-        })
-    }
 
     nameChangedHandler = (event) => {
         this.setState({
@@ -42,11 +27,22 @@ class App extends Component {
     }
 
     togglePersonHandler = () => {
+        const doesShow = this.state.showPersons;
+        this.setState({
+            showPersons: !doesShow
+        })
+    }
 
+    deletePersonHandler = (personIndex) => {
+        const persons = this.state.persons;
+        // remove one element from the array
+        persons.splice(personIndex, 1);
+        this.setState({
+            persons: persons
+        })
     }
 
     render() {
-
         const style = {
             backgroundColor: "green",
             color: "white",
@@ -61,10 +57,16 @@ class App extends Component {
         if (this.state.showPersons) {
             persons = (
                 <div>
-                    {this.state.persons.map((person)=>{
-                        return <Person clicked={this.switchNameHandler} name={person.name}
-                                       age={person.age}
-                                       changed={this.nameChangedHandler}/>
+                    {this.state.persons.map((person, index) => {
+                        return (
+                            <Person
+                                key={person.Id}
+                                name={person.name}
+                                age={person.age}
+                                changed={this.nameChangedHandler}
+                                clicked={() => this.deletePersonHandler(index)}
+                            />
+                        )
                     })}
                 </div>
             )
@@ -73,7 +75,7 @@ class App extends Component {
         return (
             <div className="App">
                 <h1 className="App">Hi I am a react app</h1>
-                <button style={style} onClick={this.switchNameHandler}>Switch Name</button>
+                <button style={style} onClick={this.togglePersonHandler}>Show Persons</button>
                 {persons}
             </div>
         );
