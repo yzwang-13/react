@@ -34,7 +34,8 @@ class App extends Component {
     }
 
     deletePersonHandler = (personIndex) => {
-        const persons = this.state.persons;
+        // create a copy of persons array instead of directly manipulating the original array
+        const persons = [...this.state.persons];
         // remove one element from the array
         persons.splice(personIndex, 1);
         this.setState({
@@ -83,44 +84,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-// const App = props => {
-//    const [personsState, setPersonsState] =  useState({
-//         persons: [
-//             {name: 'Max', age: 28},
-//             {name: 'Wilson', age: 29},
-//             {name: 'Elevyn', age: 29}
-//         ],
-//
-//     });
-//
-//    const [otherState, setOtherState] = useState({otherState1:'Some other value for other state 1'});
-//
-//    const [otherState2, setOtherState2] = useState({otherState1:'Some other value for other state 2'});
-//    console.log(personsState, otherState, otherState2);
-//
-//     const switchNameHandler = () => {
-//         // console.log("was clicked");
-//         // merge the old state with the new one, will not override old state.
-//         setPersonsState({
-//             persons: [
-//                 {name: 'AAA', age: 0},
-//                 {name: 'BBB', age: 0},
-//                 {name: 'CCC', age: 0}
-//             ]
-//         });
-//     }
-//
-//     return (
-//         <div className="App">
-//             <button onClick={switchNameHandler}>Switch Name</button>
-//             <Person name={personsState.persons[0].name} age={personsState.persons[0].age}/>
-//             <Person name={personsState.persons[1].name} age={personsState.persons[1].age}/>
-//             <Person name={personsState.persons[2].name} age={personsState.persons[2].age}></Person>
-//             <h1>Hi I am a react app</h1>
-//         </div>
-//     );
-//
-// }
-// export default App;
