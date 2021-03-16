@@ -61,13 +61,21 @@ class App extends Component {
             font: "inherit",
             border: '1px solid blue',
             padding: '8px',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            ":hover": {
+                backgroundColor: "black",
+                color: "white"
+            }
         };
 
         // check if the showPersons == true
         let persons = null;
         if (this.state.showPersons) {
             style.backgroundColor = "red";
+            style[':hover'] = {
+                backgroundColor: "salmon",
+                    color: "black"
+            }
             persons = (
                 <div>
                     {this.state.persons.map((person, index) => {
