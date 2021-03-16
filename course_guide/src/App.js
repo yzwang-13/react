@@ -1,6 +1,7 @@
 import React, {Component, useState} from 'react';
 import './App.css';
 import Person from './Person/Person';
+import Radium from "radium";
 
 class App extends Component {
 
@@ -66,6 +67,7 @@ class App extends Component {
         // check if the showPersons == true
         let persons = null;
         if (this.state.showPersons) {
+            style.backgroundColor = "red";
             persons = (
                 <div>
                     {this.state.persons.map((person, index) => {
@@ -83,9 +85,19 @@ class App extends Component {
             )
         }
 
+        // let classes = ['red', 'bold'].join(' ');
+        const classes = [];
+        if (this.state.persons.length <= 2){
+            classes.push('red'); // classes = ['red']
+        }
+        if (this.state.persons.length <= 1){
+            classes.push('bold'); // classes = ['red', 'bold']
+        }
+
         return (
             <div className="App">
                 <h1 className="App">Hi I am a react app</h1>
+                <p className={classes.join(' ')}>This is really working</p>
                 <button style={style} onClick={this.togglePersonHandler}>Show Persons</button>
                 {persons}
             </div>
@@ -93,4 +105,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Radium(App);

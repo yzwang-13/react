@@ -1,6 +1,5 @@
 import React from 'react';
 import './Char.css'
-import {uuid} from 'uuidv4';
 
 const char = (props) => {
     return (
