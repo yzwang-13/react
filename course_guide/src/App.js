@@ -1,7 +1,7 @@
 import React, {Component, useState} from 'react';
 import './App.css';
 import Person from './Person/Person';
-import Radium from "radium";
+import Radium, {StyleRoot} from "radium";
 
 class App extends Component {
 
@@ -18,7 +18,7 @@ class App extends Component {
 
 
     nameChangedHandler = (event, id) => {
-        const personIndex = this.state.persons.findIndex( person => {
+        const personIndex = this.state.persons.findIndex(person => {
             // return true if person.id === id
             return person.id === id;
         })
@@ -74,7 +74,7 @@ class App extends Component {
             style.backgroundColor = "red";
             style[':hover'] = {
                 backgroundColor: "salmon",
-                    color: "black"
+                color: "black"
             }
             persons = (
                 <div>
@@ -95,20 +95,22 @@ class App extends Component {
 
         // let classes = ['red', 'bold'].join(' ');
         const classes = [];
-        if (this.state.persons.length <= 2){
+        if (this.state.persons.length <= 2) {
             classes.push('red'); // classes = ['red']
         }
-        if (this.state.persons.length <= 1){
+        if (this.state.persons.length <= 1) {
             classes.push('bold'); // classes = ['red', 'bold']
         }
 
         return (
-            <div className="App">
-                <h1 className="App">Hi I am a react app</h1>
-                <p className={classes.join(' ')}>This is really working</p>
-                <button style={style} onClick={this.togglePersonHandler}>Show Persons</button>
-                {persons}
-            </div>
+            <StyleRoot>
+                <div className="App">
+                    <h1 className="App">Hi I am a react app</h1>
+                    <p className={classes.join(' ')}>This is really working</p>
+                    <button style={style} onClick={this.togglePersonHandler}>Show Persons</button>
+                    {persons}
+                </div>
+            </StyleRoot>
         );
     }
 }

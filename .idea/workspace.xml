@@ -95,6 +95,8 @@
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course_guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_guide/src/Person/Person.css" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/Person/Person.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_guide/src/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/Person/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -288,7 +290,9 @@
       <workItem from="1615586808222" duration="3000" />
       <workItem from="1615586827059" duration="14411000" />
       <workItem from="1615621014573" duration="815000" />
-      <workItem from="1615774532595" duration="4370000" />
+      <workItem from="1615774532595" duration="5190000" />
+      <workItem from="1617086545839" duration="183000" />
+      <workItem from="1617086741296" duration="185000" />
     </task>
     <servers />
   </component>
