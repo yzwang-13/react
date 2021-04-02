@@ -1,11 +1,25 @@
 import React, {Component, useState} from 'react';
 import './App.css';
 import Person from './Person/Person';
-import Radium, {StyleRoot} from "radium";
+// import Radium, {StyleRoot} from "radium";
+import styled from 'styled-components';
+
+const StyledButton = styled.button`
+            background-color: ${props => props.alt ? 'green' : 'red'};
+            color: white;
+            font: inherit;
+            border: 1px solid blue;
+            padding: 8px;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: ${props => props.alt ? 'salmon' : 'black'};
+                color: ${props => props.alt ? 'black' : 'white'};
+            }
+`;
+
 
 class App extends Component {
-
-
     state = {
         persons: [
             {name: 'Max', id: 123456, age: 28},
@@ -54,19 +68,9 @@ class App extends Component {
         })
     }
 
+
     render() {
-        const style = {
-            backgroundColor: "green",
-            color: "white",
-            font: "inherit",
-            border: '1px solid blue',
-            padding: '8px',
-            cursor: 'pointer',
-            ":hover": {
-                backgroundColor: "black",
-                color: "white"
-            }
-        };
+        const style = {};
 
         // check if the showPersons == true
         let persons = null;
@@ -103,16 +107,15 @@ class App extends Component {
         }
 
         return (
-            <StyleRoot>
-                <div className="App">
-                    <h1 className="App">Hi I am a react app</h1>
-                    <p className={classes.join(' ')}>This is really working</p>
-                    <button style={style} onClick={this.togglePersonHandler}>Show Persons</button>
-                    {persons}
-                </div>
-            </StyleRoot>
+            <div className="App">
+                <h1 className="App">Hi I am a react app</h1>
+                <p className={classes.join(' ')}>This is really working</p>
+
+                <StyledButton style={style} alt={this.state.showPersons} onClick={this.togglePersonHandler}>Show Persons</StyledButton>
+                {persons}
+            </div>
         );
     }
 }
 
-export default Radium(App);
+export default App;
