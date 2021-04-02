@@ -1,8 +1,8 @@
 import React, {Component, useState} from 'react';
-import './App.css';
 import Person from './Person/Person';
 // import Radium, {StyleRoot} from "radium";
 import styled from 'styled-components';
+import Classes from './App.css'
 
 const StyledButton = styled.button`
             background-color: ${props => props.alt ? 'green' : 'red'};
@@ -70,16 +70,12 @@ class App extends Component {
 
 
     render() {
-        const style = {};
+
+        let btnClasses = [Classes.Button];
 
         // check if the showPersons == true
         let persons = null;
         if (this.state.showPersons) {
-            style.backgroundColor = "red";
-            style[':hover'] = {
-                backgroundColor: "salmon",
-                color: "black"
-            }
             persons = (
                 <div>
                     {this.state.persons.map((person, index) => {
@@ -95,6 +91,8 @@ class App extends Component {
                     })}
                 </div>
             )
+
+            btnClasses.push(Classes.Black);
         }
 
         // let classes = ['red', 'bold'].join(' ');
@@ -107,11 +105,11 @@ class App extends Component {
         }
 
         return (
-            <div className="App">
+            <div className={Classes.App}>
                 <h1 className="App">Hi I am a react app</h1>
                 <p className={classes.join(' ')}>This is really working</p>
 
-                <StyledButton style={style} alt={this.state.showPersons} onClick={this.togglePersonHandler}>Show Persons</StyledButton>
+                <button className={btnClasses.join(' ')}  onClick={this.togglePersonHandler}>Show Persons</button>
                 {persons}
             </div>
         );
