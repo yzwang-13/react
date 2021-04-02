@@ -1,22 +1,22 @@
 import React, {Component, useState} from 'react';
 import Person from './Person/Person';
 // import Radium, {StyleRoot} from "radium";
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import Classes from './App.css'
 
-const StyledButton = styled.button`
-            background-color: ${props => props.alt ? 'green' : 'red'};
-            color: white;
-            font: inherit;
-            border: 1px solid blue;
-            padding: 8px;
-            cursor: pointer;
-            
-            &:hover{
-                background-color: ${props => props.alt ? 'salmon' : 'black'};
-                color: ${props => props.alt ? 'black' : 'white'};
-            }
-`;
+// const StyledButton = styled.button`
+//             background-color: ${props => props.alt ? 'green' : 'red'};
+//             color: white;
+//             font: inherit;
+//             border: 1px solid blue;
+//             padding: 8px;
+//             cursor: pointer;
+//
+//             &:hover{
+//                 background-color: ${props => props.alt ? 'salmon' : 'black'};
+//                 color: ${props => props.alt ? 'black' : 'white'};
+//             }
+// `;
 
 
 class App extends Component {
