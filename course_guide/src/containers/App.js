@@ -1,23 +1,7 @@
 import React, {Component, useState} from 'react';
-import Person from './Person/Person';
-// import Radium, {StyleRoot} from "radium";
-// import styled from 'styled-components';
-import Classes from './App.css'
-
-// const StyledButton = styled.button`
-//             background-color: ${props => props.alt ? 'green' : 'red'};
-//             color: white;
-//             font: inherit;
-//             border: 1px solid blue;
-//             padding: 8px;
-//             cursor: pointer;
-//
-//             &:hover{
-//                 background-color: ${props => props.alt ? 'salmon' : 'black'};
-//                 color: ${props => props.alt ? 'black' : 'white'};
-//             }
-// `;
-
+import Person from '../components/Persons/Person/Person';
+import Classes from './App.css';
+import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
 
 class App extends Component {
     state = {
@@ -105,13 +89,14 @@ class App extends Component {
         }
 
         return (
-            <div className={Classes.App}>
-                <h1 className="App">Hi I am a react app</h1>
-                <p className={classes.join(' ')}>This is really working</p>
-
-                <button className={btnClasses.join(' ')}  onClick={this.togglePersonHandler}>Show Persons</button>
-                {persons}
-            </div>
+            <ErrorBoundary>
+                <div className={Classes.App}>
+                    <h1 className="App">Hi I am a react app</h1>
+                    <p className={classes.join(' ')}>This is really working</p>
+                    <button className={btnClasses.join(' ')} onClick={this.togglePersonHandler}>Show Persons</button>
+                    {persons}
+                </div>
+            </ErrorBoundary>
         );
     }
 }
