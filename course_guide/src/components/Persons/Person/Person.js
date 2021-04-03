@@ -6,6 +6,7 @@ import Classes from './Person.css';
 
 
 const person = (props) => {
+    console.log('[Person.js] rendering...')
 
     return (
         <div className={Classes.Person}>

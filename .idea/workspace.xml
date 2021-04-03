@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -98,9 +97,7 @@
       <change beforePath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course_guide/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Persons/Person/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course_guide/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Persons/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_guide/src/containers/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/containers/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course_guide/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_guide/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -304,7 +301,7 @@
       <workItem from="1615774532595" duration="5190000" />
       <workItem from="1617086545839" duration="183000" />
       <workItem from="1617086741296" duration="3451000" />
-      <workItem from="1617168914168" duration="8373000" />
+      <workItem from="1617168914168" duration="10070000" />
     </task>
     <servers />
   </component>
