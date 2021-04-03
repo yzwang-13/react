@@ -1,7 +1,8 @@
-import React, {Component, useState} from 'react';
-import Person from '../components/Persons/Person/Person';
+import React, {Component} from 'react';
 import Classes from './App.css';
 import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
+import Persons from '../components/Persons/Persons';
+import Cockpit from '../components/Cockpit/Cockpit';
 
 class App extends Component {
     state = {
@@ -55,45 +56,29 @@ class App extends Component {
 
     render() {
 
-        let btnClasses = [Classes.Button];
+
 
         // check if the showPersons == true
         let persons = null;
         if (this.state.showPersons) {
             persons = (
                 <div>
-                    {this.state.persons.map((person, index) => {
-                        return (
-                            <Person
-                                key={person.id}
-                                name={person.name}
-                                age={person.age}
-                                changed={(event) => this.nameChangedHandler(event, person.id)}
-                                clicked={() => this.deletePersonHandler(index)}
-                            />
-                        )
-                    })}
+                    <Persons changed={this.nameChangedHandler} clicked={this.deletePersonHandler} persons={this.state.persons}/>
                 </div>
             )
-
-            btnClasses.push(Classes.Black);
         }
 
-        // let classes = ['red', 'bold'].join(' ');
-        const classes = [];
-        if (this.state.persons.length <= 2) {
-            classes.push('red'); // classes = ['red']
-        }
-        if (this.state.persons.length <= 1) {
-            classes.push('bold'); // classes = ['red', 'bold']
-        }
+
 
         return (
             <ErrorBoundary>
                 <div className={Classes.App}>
-                    <h1 className="App">Hi I am a react app</h1>
-                    <p className={classes.join(' ')}>This is really working</p>
-                    <button className={btnClasses.join(' ')} onClick={this.togglePersonHandler}>Show Persons</button>
+                    <Cockpit
+                        title={this.props.appTitle}
+                        showPerson={this.state.showPersons}
+                        persons={this.state.persons}
+                        clicked={this.togglePersonHandler}
+                    />
                     {persons}
                 </div>
             </ErrorBoundary>

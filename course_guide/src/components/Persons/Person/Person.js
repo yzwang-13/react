@@ -4,24 +4,8 @@ import React from 'react';
 // import styled from 'styled-components';
 import Classes from './Person.css';
 
-// const StyledDiv = styled.div`
-//     width: 60%;
-//     margin: 16px auto;
-//     border: 2px solid #eee;
-//     box-shadow: 0 2px 3px #ccc;
-//     padding: 16px;
-//     text-align: center;
-//
-// @media (max-width: 1000px) {
-//         width: 200px;
-// }`
 
 const person = (props) => {
-
-    const rnd = Math.random();
-    if (rnd > 0.7){
-        throw new Error('Something went wrong');
-    }
 
     return (
         <div className={Classes.Person}>
