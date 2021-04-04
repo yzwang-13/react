@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useEffect}from 'react';
 import Classes from './Cockpit.css';
 
 const cockpit = (props) => {
+
+    useEffect(()=> {
+        console.log('[Cockpit.js] useEffect')
+    },[trackingVariable1,trackingVariable2, trackingVariable3]);
 
     let btnClasses = '';
     if (props.showPerson === true){
