@@ -5,7 +5,7 @@ const cockpit = (props) => {
 
     useEffect(()=> {
         console.log('[Cockpit.js] useEffect')
-    },[trackingVariable1,trackingVariable2, trackingVariable3]);
+    },[props.trackingVariable1,props.trackingVariable2, props.trackingVariable3]);
 
     let btnClasses = '';
     if (props.showPerson === true){

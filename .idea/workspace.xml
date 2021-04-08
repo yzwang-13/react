@@ -94,9 +94,8 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course_guide/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Persons/Person/Person.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_guide/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Persons/Persons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_guide/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/containers/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -302,6 +301,7 @@
       <workItem from="1617086741296" duration="3451000" />
       <workItem from="1617168914168" duration="12413000" />
       <workItem from="1617519620956" duration="830000" />
+      <workItem from="1617861949974" duration="646000" />
     </task>
     <servers />
   </component>
@@ -325,6 +325,14 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1615610899749" />
+    <state x="149" y="53" key="CommitChangelistDialog2" timestamp="1617862028032">
+      <screen x="0" y="23" width="1395" height="877" />
+    </state>
+    <state x="149" y="53" key="CommitChangelistDialog2/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1617862028032" />
+    <state x="238" y="159" width="893" height="619" key="DiffContextDialog" timestamp="1617862425999">
+      <screen x="0" y="23" width="1395" height="877" />
+    </state>
+    <state x="238" y="159" width="893" height="619" key="DiffContextDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1617862425999" />
     <state x="159" y="95" key="SettingsEditor" timestamp="1615086355635">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
