@@ -29,6 +29,10 @@ class App extends Component {
         console.log('[app.js] componentDidUpdate')
     }
 
+    componentWillUnmount() {
+        console.log('[app.js] componentWillUnmount cleanup work');
+    }
+
     state = {
         persons: [
             {name: 'Max', id: 123456, age: 28},

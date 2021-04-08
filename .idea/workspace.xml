@@ -94,7 +94,9 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Cockpit/Cockpit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_guide/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Persons/Person/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_guide/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/components/Persons/Persons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_guide/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/course_guide/src/containers/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -233,8 +235,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -298,7 +300,8 @@
       <workItem from="1615774532595" duration="5190000" />
       <workItem from="1617086545839" duration="183000" />
       <workItem from="1617086741296" duration="3451000" />
-      <workItem from="1617168914168" duration="11803000" />
+      <workItem from="1617168914168" duration="12413000" />
+      <workItem from="1617519620956" duration="830000" />
     </task>
     <servers />
   </component>
