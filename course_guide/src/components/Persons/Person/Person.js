@@ -16,6 +16,6 @@ class Person extends Component {
             </React.Fragment>
         )
     }
-}
+} 
 
 export default Person;

@@ -3,6 +3,7 @@ import Classes from './App.css';
 import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
+import WithClass from '../hoc/WithClass';
 
 class App extends Component {
 
@@ -89,24 +90,22 @@ class App extends Component {
         if (this.state.showPersons) {
             persons = (
                 <div>
-                    <Persons changed={this.nameChangedHandler} clicked={this.deletePersonHandler} persons={this.state.persons}/>
+                    <Persons changed={this.nameChangedHandler} clicked={this.deletePersonHandler}
+                             persons={this.state.persons}/>
                 </div>
             )
         }
 
-
         return (
-            <ErrorBoundary>
-                <div className={Classes.App}>
-                    <Cockpit
-                        title={this.props.appTitle}
-                        showPerson={this.state.showPersons}
-                        persons={this.state.persons}
-                        clicked={this.togglePersonHandler}
-                    />
-                    {persons}
-                </div>
-            </ErrorBoundary>
+            <WithClass classes={Classes.App}>
+                <Cockpit
+                    title={this.props.appTitle}
+                    showPerson={this.state.showPersons}
+                    persons={this.state.persons}
+                    clicked={this.togglePersonHandler}
+                />
+                {persons}
+            </WithClass>
         );
     }
 }
