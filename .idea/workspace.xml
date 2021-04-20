@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseDate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/Expenses.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/Expenses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/UI/Card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/UI/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseFrom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -102,10 +99,7 @@
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/ExpenseDate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/ExpenseDate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/ExpenseItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -319,7 +313,7 @@
       <workItem from="1618815699265" duration="255000" />
       <workItem from="1618815974548" duration="139000" />
       <workItem from="1618816127315" duration="8483000" />
-      <workItem from="1618899900810" duration="1038000" />
+      <workItem from="1618899900810" duration="4731000" />
     </task>
     <servers />
   </component>
