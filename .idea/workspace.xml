@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseFrom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Course/section-2-basics/basics-01-understanding-the-course-project-starting-code/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -98,8 +95,6 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpenseItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -274,11 +269,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics" />
+      <recent name="$PROJECT_DIR$/CSS_Course/section-1-getting-started" />
+      <recent name="$PROJECT_DIR$/CSS_Course" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/UI" />
-      <recent name="$PROJECT_DIR$/course_guide/src/containers" />
-      <recent name="$PROJECT_DIR$/course_guide/src/components" />
-      <recent name="$PROJECT_DIR$/course_guide/src/Persons" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -313,7 +308,7 @@
       <workItem from="1618815699265" duration="255000" />
       <workItem from="1618815974548" duration="139000" />
       <workItem from="1618816127315" duration="8483000" />
-      <workItem from="1618899900810" duration="4731000" />
+      <workItem from="1618899900810" duration="7856000" />
     </task>
     <servers />
   </component>
