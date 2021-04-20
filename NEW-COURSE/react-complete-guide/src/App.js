@@ -1,7 +1,8 @@
 import './App.css';
-import ExpenseItem from "./components/ExpenseItem";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
     const expenses = [
         {
             id: 'e1',
@@ -29,16 +30,7 @@ function App() {
         <div>
             <h1>Let's get started</h1>
             <p>This is also visiable</p>
-            {expenses.map((e) => {
-                return(
-                    <ExpenseItem
-                        key={e.id}
-                        title={e.title}
-                        amount={e.amount}
-                        date={e.date}
-                    />
-                    )
-            })}
+            <Expenses expenses={expenses}/>
         </div>
     );
 }
