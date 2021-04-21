@@ -1,0 +1,22 @@
+/*section {*/
+/*    background: #ff1b68;*/
+/*}*/
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    color: #cccccc;
+    font-family: Arial;
+}
+
+#product-overview h1{
+    background: #ff1b68;
+    padding: 20px 10px 5px 0;
+    border: 5px dashed #cccccc;
+    margin: 20px;
+}
+
+.section-title{
+    color: #2ddf5c
+}
