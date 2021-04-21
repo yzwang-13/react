@@ -3,22 +3,34 @@ import {useState} from 'react';
 
 const ExpenseFrom = () => {
 
-    const [enteredTitle, setEnteredTitle] = useState('');
-    const [enteredAmount, setEnteredAmount] = useState('');
-    const [enteredDate, setEnteredDate] = useState('');
+    // the logic is kind of the same but now it's in one state object
+    // managed as one piece of state instead of three separate slices.
+    const [userInput, setUserInput] = useState({
+        enteredTitle: '',
+        enteredAmount: '',
+        enteredDate: ''
+    })
 
     const titleChangeHandler = event => {
-        console.log('titleChanged');
-        console.log(event.target.value);
-        setEnteredTitle(event.target.value);
+        // need to copy old state so that other values won't get lost
+        setUserInput({
+            ...userInput,
+            enteredTitle: event.target.value,
+        })
     }
 
     const amountChangeHandler = event => {
-        setEnteredAmount(event.target.value);
+        setUserInput({
+            ...userInput,
+            enteredAmount: event.target.value,
+        })
     }
 
     const dateChangeHandler = event => {
-        setEnteredDate(event.target.value);
+        setUserInput({
+            ...userInput,
+            enteredDate: event.target.value,
+        })
     }
 
     return <form>
