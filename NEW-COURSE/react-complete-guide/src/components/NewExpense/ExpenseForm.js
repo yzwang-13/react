@@ -13,23 +13,21 @@ const ExpenseFrom = () => {
 
     const titleChangeHandler = event => {
         // need to copy old state so that other values won't get lost
-        setUserInput({
-            ...userInput,
-            enteredTitle: event.target.value,
+        setUserInput((preState) => {
+            return {...preState, enteredTitle: event.target.value};
         })
     }
 
     const amountChangeHandler = event => {
-        setUserInput({
-            ...userInput,
-            enteredAmount: event.target.value,
+        setUserInput((preState) => {
+            return {...preState, enteredAmount: event.target.value};
         })
+
     }
 
     const dateChangeHandler = event => {
-        setUserInput({
-            ...userInput,
-            enteredDate: event.target.value,
+        setUserInput((preState) => {
+            return {...preState, enteredDate: event.target.value};
         })
     }
 
