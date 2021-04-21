@@ -1,7 +1,7 @@
 import './ExpenseFrom.css';
 import {useState} from 'react';
 
-const ExpenseFrom = () => {
+const ExpenseFrom = (props) => {
 
     // the logic is kind of the same but now it's in one state object
     // managed as one piece of state instead of three separate slices.
@@ -57,6 +57,7 @@ const ExpenseFrom = () => {
 
         // after settign the two way binding, we can clear the inputs
         // after submitting
+        props.onSaveExpenseData(expenseData);
         setEnteredTitle('');
         setEnteredAmount('');
         setEnteredDate('');
