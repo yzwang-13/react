@@ -1,5 +1,6 @@
 import './ExpenseFrom.css';
 import {useState} from 'react';
+import {uuid} from 'uuidv4';
 
 const ExpenseFrom = (props) => {
 
@@ -53,6 +54,7 @@ const ExpenseFrom = (props) => {
             title: enteredTitle,
             amount: enteredAmount,
             date: new Date(enteredDate),
+            id: uuid()
         }
 
         // after settign the two way binding, we can clear the inputs
@@ -61,6 +63,7 @@ const ExpenseFrom = (props) => {
         setEnteredTitle('');
         setEnteredAmount('');
         setEnteredDate('');
+
     }
 
     return <form onSubmit={submitHandler}>
