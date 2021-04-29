@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/Chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/ChartBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/ChartBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/ExpensesChart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -98,9 +95,8 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseFrom.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseFrom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/Expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -239,8 +235,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -323,7 +319,7 @@
       <workItem from="1619092641816" duration="1647000" />
       <workItem from="1619348527544" duration="628000" />
       <workItem from="1619394955183" duration="8551000" />
-      <workItem from="1619668611425" duration="1344000" />
+      <workItem from="1619668611425" duration="2473000" />
     </task>
     <servers />
   </component>
