@@ -5,8 +5,14 @@ import ExpenseFilter from "./ExpenseFilter";
 import {useState} from 'react';
 import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpensesChart";
+import {useEffect} from 'react';
 
 const Expenses = (props) => {
+
+    useEffect(()=>{
+        console.log('expenses component rendering');
+        console.log(props.expenses)
+    })
 
     return (
         <Card className='expenses'>

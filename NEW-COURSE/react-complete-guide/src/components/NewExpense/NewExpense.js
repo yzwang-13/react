@@ -1,5 +1,5 @@
 import './NewExpense.css';
-import ExpenseFrom from "./ExpenseForm";
+import ExpenseForm from "./ExpenseForm";
 import {useState} from 'react';
 
 
@@ -16,21 +16,22 @@ const NewExpense = (props) => {
     const [showForm, changeShowFormState] = useState(false);
 
 
-    const AddCancelClickHandler = () => {
+    const addCancelClickHandler = () => {
         changeShowFormState(prevState => !prevState)
     }
 
     const saveExpenseDataHandler = (expenseData) => {
         props.onAddExpense(expenseData);
-        AddCancelClickHandler();
+        console.log(expenseData);
+        addCancelClickHandler();
     }
 
     return (
         <div className='new-expense'>
             {showForm &&
-            <ExpenseFrom AddCancelClickHandler={AddCancelClickHandler} onSaveExpenseData={saveExpenseDataHandler}/>}
+            <ExpenseForm AddCancelClickHandler={addCancelClickHandler} onSaveExpenseData={saveExpenseDataHandler}/>}
             {!showForm && <div className='add-new-expense__actions'>
-                <button onClick={AddCancelClickHandler}>Add New Expense</button>
+                <button onClick={addCancelClickHandler}>Add New Expense</button>
             </div>}
         </div>
     )

@@ -35,18 +35,19 @@ const App = () => {
     const [expenses, updateExpenses] = useState(DUMMY_EXPENSES);
 
     const addExpenseHandler = expense => {
-        console.log(JSON.stringify(expense) + "In app.js");
+        // console.log(expense.date.getFullYear().toString() + "addExpenseHandler")
+        setYear(expense.date.getFullYear().toString());
+        // console.log(JSON.stringify(expense) + "In app.js");
         updateExpenses(prevState => {
             return [expense, ...prevState]
         })
-
     }
 
     const [selectedYear, setYear] = useState(new Date().getFullYear().toString());
 
     const filterSelectedHandler = (event) => {
         setYear(event.target.value);
-        console.log(event.target.value);
+        console.log(event.target.value + "filterSelectedHandler");
     }
 
 

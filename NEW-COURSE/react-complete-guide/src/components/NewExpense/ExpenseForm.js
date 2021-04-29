@@ -2,7 +2,7 @@ import './ExpenseFrom.css';
 import {useState} from 'react';
 import {uuid} from 'uuidv4';
 
-const ExpenseFrom = (props) => {
+const ExpenseForm = (props) => {
 
     // the logic is kind of the same but now it's in one state object
     // managed as one piece of state instead of three separate slices.
@@ -52,7 +52,7 @@ const ExpenseFrom = (props) => {
 
         const expenseData = {
             title: enteredTitle,
-            amount: enteredAmount,
+            amount: +enteredAmount,
             date: new Date(enteredDate),
             id: uuid()
         }
@@ -90,4 +90,4 @@ const ExpenseFrom = (props) => {
 
 }
 
-export default ExpenseFrom;
+export default ExpenseForm;
