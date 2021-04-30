@@ -94,7 +94,10 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/UI/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/UI/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/UI/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
@@ -321,7 +324,7 @@
       <workItem from="1619394955183" duration="8551000" />
       <workItem from="1619668611425" duration="5385000" />
       <workItem from="1619747369926" duration="5875000" />
-      <workItem from="1619767236735" duration="125000" />
+      <workItem from="1619767236735" duration="1504000" />
     </task>
     <servers />
   </component>
