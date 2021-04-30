@@ -24,6 +24,7 @@ const FormControl = styled.div`
   padding: 0 0.25rem;
 }
 
+
 & input:focus {
   outline: none;
   background: #fad0ec;
