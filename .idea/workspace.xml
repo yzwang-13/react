@@ -94,7 +94,9 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/ChartBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/ChartBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/06-styling-project/src/components/CourseGoals/CourseInput/CourseInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -261,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/06-styling-project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -276,6 +278,7 @@
       <recent name="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/06-styling-project" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/basics-06-assignment-problem" />
     </key>
@@ -318,7 +321,7 @@
       <workItem from="1619348527544" duration="628000" />
       <workItem from="1619394955183" duration="8551000" />
       <workItem from="1619668611425" duration="5385000" />
-      <workItem from="1619747369926" duration="845000" />
+      <workItem from="1619747369926" duration="2914000" />
     </task>
     <servers />
   </component>
@@ -354,6 +357,10 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="175" y="82" key="SettingsEditor/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1618816282879" />
+    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619748897763">
+      <screen x="0" y="23" width="1395" height="877" />
+    </state>
+    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619748897763" />
     <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1614916778255">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
