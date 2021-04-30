@@ -94,10 +94,7 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses/Expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/NewExpense/NewExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/ChartBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Chart/ChartBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -271,16 +268,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
-      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/basics-06-assignment-problem" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE" />
       <recent name="$PROJECT_DIR$/CSS_Course" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-1-getting-started" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/UI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
+      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/basics-06-assignment-problem" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -320,7 +317,8 @@
       <workItem from="1619092641816" duration="1647000" />
       <workItem from="1619348527544" duration="628000" />
       <workItem from="1619394955183" duration="8551000" />
-      <workItem from="1619668611425" duration="5014000" />
+      <workItem from="1619668611425" duration="5385000" />
+      <workItem from="1619747369926" duration="845000" />
     </task>
     <servers />
   </component>
