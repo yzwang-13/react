@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {uuid} from 'uuidv4'
 
 import CourseGoalList from './components/CourseGoals/CourseGoalList/CourseGoalList';
 import CourseInput from './components/CourseGoals/CourseInput/CourseInput';
@@ -13,7 +14,7 @@ const App = () => {
   const addGoalHandler = enteredText => {
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
-      updatedGoals.unshift({ text: enteredText, id: 'goal1' });
+      updatedGoals.unshift({ text: enteredText, id: uuid() });
       return updatedGoals;
     });
   };
@@ -37,13 +38,14 @@ const App = () => {
 
   return (
 
-      <section id="goal-form">
-        <CourseInput onAddGoal={addGoalHandler} />
-      </section>
-      <section id="goals">
-        {content}
-      </section>
-
+      <React.Fragment>
+        <section id="goal-form">
+          <CourseInput onAddGoal={addGoalHandler} />
+        </section>
+        <section id="goals">
+          {content}
+        </section>
+      </React.Fragment>
   );
 };
 
