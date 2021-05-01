@@ -20,6 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/UI/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/UI/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUser.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/User.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/Users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -94,7 +106,8 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/07-debugging/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/07-debugging/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -233,8 +246,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -261,25 +275,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/07-debugging" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE" />
+      <recent name="$PROJECT_DIR$/CSS_Course" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/07-debugging" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/06-styling-project" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/basics-06-assignment-problem" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE" />
-      <recent name="$PROJECT_DIR$/CSS_Course" />
-      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics" />
-      <recent name="$PROJECT_DIR$/CSS_Course/section-1-getting-started" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/react-complete-guide/src/components/Expenses" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -322,7 +338,7 @@
       <workItem from="1619668611425" duration="5385000" />
       <workItem from="1619747369926" duration="5875000" />
       <workItem from="1619767236735" duration="3521000" />
-      <workItem from="1619839220256" duration="1390000" />
+      <workItem from="1619839220256" duration="14042000" />
     </task>
     <servers />
   </component>
@@ -342,10 +358,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615610899749">
+    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619851690511">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
-    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1615610899749" />
+    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619851690511" />
     <state x="149" y="53" key="CommitChangelistDialog2" timestamp="1617862028032">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
@@ -366,5 +382,9 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="403" y="76" width="598" height="822" key="find.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1614916778255" />
+    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1619850548724">
+      <screen x="0" y="23" width="1395" height="877" />
+    </state>
+    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619850548724" />
   </component>
 </project>

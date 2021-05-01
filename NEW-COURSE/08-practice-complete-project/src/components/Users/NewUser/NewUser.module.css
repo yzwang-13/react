@@ -1,0 +1,7 @@
+.new_user {
+    /*display: flex;*/
+    width: 800px;
+    margin: 20px auto 50px;
+    background: white;
+    border-radius: 8px;
+}

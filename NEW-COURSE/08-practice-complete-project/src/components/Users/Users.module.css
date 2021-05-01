@@ -1,0 +1,13 @@
+.users {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+}
+
+.users__inner {
+    margin: 25px 25px;
+    /*border: 1px solid #cccccc;*/
+    width: 100%;
+}
