@@ -20,18 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/UI/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/UI/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUser.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/User.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/Users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -106,8 +94,9 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/UI/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/UI/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -338,7 +327,8 @@
       <workItem from="1619668611425" duration="5385000" />
       <workItem from="1619747369926" duration="5875000" />
       <workItem from="1619767236735" duration="3521000" />
-      <workItem from="1619839220256" duration="14042000" />
+      <workItem from="1619839220256" duration="14205000" />
+      <workItem from="1619946727999" duration="2884000" />
     </task>
     <servers />
   </component>

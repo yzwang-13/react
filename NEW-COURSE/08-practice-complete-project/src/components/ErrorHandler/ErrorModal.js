@@ -11,7 +11,7 @@ const ErrorModal = props => {
                 </div>
                 <div className={classes.content}>
                     <p>Your input is invalid</p>
-                    <Button type='button' onClick={props.onCancel} className={classes.actions} content='Okay'>Okay</Button>
+                    <Button type='button' onClick={props.onCancel} className={classes.actions}>Okay</Button>
                 </div>
             </div>
         </div>

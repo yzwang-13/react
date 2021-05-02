@@ -6,7 +6,7 @@ import {uuid} from 'uuidv4';
 const NewUserForm = props => {
 
     const [userName, setUserName] = useState('');
-    const [userAge, setUserAge] = useState(0);
+    const [userAge, setUserAge] = useState();
 
     const nameChangeHandler = event => {
         setUserName(event.target.value);
@@ -18,28 +18,31 @@ const NewUserForm = props => {
 
     const formSubmitHandler = event => {
         event.preventDefault();
+        if (userAge.toString().trim().length === 0 || userName.trim().length ===0 ){
+            props.error(true)
+            return
+        }
         const formData =
             {
                 id: uuid(),
                 name: userName,
                 age: userAge
             }
-        if (userAge < 0){
-            props.error(true)
-            return
-        }
+
+        setUserName('');
+        setUserAge('');
         props.addUser(formData);
     }
 
     return (
         <div className={classes.form_control}>
             <form onSubmit={formSubmitHandler}>
-                <label>Name:</label>
+                <label htmlFor='username'>Name:</label>
                 <input onChange={nameChangeHandler} value={userName} type="text"/>
-                <label>Age:</label>
+                <label htmlFor='age'>Age:</label>
                 <input onChange={ageChangeHandler} value={Number(userAge).toString()} type="number"  step={1}
-                       max={128}/>
-                <Button content='Add User' type='submit'/>
+                       max={128} min={1}/>
+                <Button type='submit'>Add User</Button>
             </form>
         </div>
 
