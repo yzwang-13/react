@@ -41,7 +41,7 @@ const NewUserForm = props => {
                 <input onChange={nameChangeHandler} value={userName} type="text"/>
                 <label htmlFor='age'>Age:</label>
                 <input onChange={ageChangeHandler} value={Number(userAge).toString()} type="number"  step={1}
-                       max={128} min={1}/>
+                       max={128}/>
                 <Button type='submit'>Add User</Button>
             </form>
         </div>

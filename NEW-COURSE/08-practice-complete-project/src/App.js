@@ -56,10 +56,10 @@ function App() {
     }
 
     let content = (
-        <React.Fragment>
+        <>
             <NewUser error={setError} addUser={onAddUserHandler}/>
             <Users users={users} onDeleteUserHandler={onDeleteUserHandler}/>
-        </React.Fragment>
+        </>
 
     )
 
