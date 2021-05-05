@@ -1,36 +1,48 @@
 import Button from "../../UI/Button";
 import classes from './NewUserForm.module.css';
-import {useState} from 'react';
+import {useRef, useState} from 'react';
 import {uuid} from 'uuidv4';
 
 const NewUserForm = props => {
 
-    const [userName, setUserName] = useState('');
-    const [userAge, setUserAge] = useState();
+    // create a reference using useRef from react to manipulate the real dom element
+    const nameInputRef = useRef();
+    const ageInputRef = useRef();
 
-    const nameChangeHandler = event => {
-        setUserName(event.target.value);
-    }
+    // const [userName, setUserName] = useState('');
+    // const [userAge, setUserAge] = useState();
 
-    const ageChangeHandler = event => {
-        setUserAge(+event.target.value);
-    }
+    // const nameChangeHandler = event => {
+    //     setUserName(event.target.value);
+    // }
+    //
+    // const ageChangeHandler = event => {
+    //     setUserAge(+event.target.value);
+    // }
 
     const formSubmitHandler = event => {
         event.preventDefault();
-        if (userAge.toString().trim().length === 0 || userName.trim().length ===0 ){
+        const enteredName = nameInputRef.current.value;
+        const enteredAge = nameInputRef.current.value;
+
+        console.log(ageInputRef.current.value);
+        if (enteredAge.toString().trim().length === 0 || enteredName.trim().length ===0 ){
             props.error(true)
             return
         }
         const formData =
             {
                 id: uuid(),
-                name: userName,
-                age: userAge
+                name: enteredName,
+                age: enteredAge
             }
 
-        setUserName('');
-        setUserAge('');
+        // setUserName('');
+        // setUserAge('');
+
+        // shouldn't manipulate dom until in a case of resetting input values
+        nameInputRef.current.value = '';
+        ageInputRef.current.value = '';
         props.addUser(formData);
     }
 
@@ -38,9 +50,9 @@ const NewUserForm = props => {
         <div className={classes.form_control}>
             <form onSubmit={formSubmitHandler}>
                 <label htmlFor='username'>Name:</label>
-                <input onChange={nameChangeHandler} value={userName} type="text"/>
+                <input ref={nameInputRef}  type="text"/>
                 <label htmlFor='age'>Age:</label>
-                <input onChange={ageChangeHandler} value={Number(userAge).toString()} type="number"  step={1}
+                <input ref={ageInputRef} type="number"  step={1}
                        max={128}/>
                 <Button type='submit'>Add User</Button>
             </form>

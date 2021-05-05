@@ -94,9 +94,6 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/ErrorHandler/ErrorModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser/NewUserForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
@@ -331,7 +328,9 @@
       <workItem from="1619839220256" duration="14205000" />
       <workItem from="1619946727999" duration="2884000" />
       <workItem from="1619961443919" duration="373000" />
-      <workItem from="1620025112968" duration="3824000" />
+      <workItem from="1620025112968" duration="4034000" />
+      <workItem from="1620097896136" duration="443000" />
+      <workItem from="1620182826664" duration="1825000" />
     </task>
     <servers />
   </component>
