@@ -261,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -269,19 +269,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE" />
-      <recent name="$PROJECT_DIR$/CSS_Course" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/07-debugging" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/06-styling-project" />
       <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
-      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/basics-06-assignment-problem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -329,7 +329,7 @@
       <workItem from="1619961443919" duration="373000" />
       <workItem from="1620025112968" duration="4034000" />
       <workItem from="1620097896136" duration="443000" />
-      <workItem from="1620182826664" duration="2774000" />
+      <workItem from="1620182826664" duration="6662000" />
     </task>
     <servers />
   </component>
