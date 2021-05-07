@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/context/auth-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -95,7 +96,9 @@
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/MainHeader/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/MainHeader/MainHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/MainHeader/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/MainHeader/Navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -235,8 +238,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -333,7 +336,11 @@
       <workItem from="1620097896136" duration="443000" />
       <workItem from="1620182826664" duration="6940000" />
       <workItem from="1620221771986" duration="3000" />
-      <workItem from="1620276891177" duration="5632000" />
+      <workItem from="1620276891177" duration="6114000" />
+      <workItem from="1620353581985" duration="400000" />
+      <workItem from="1620354718450" duration="72000" />
+      <workItem from="1620354793984" duration="399000" />
+      <workItem from="1620355222116" duration="427000" />
     </task>
     <servers />
   </component>
