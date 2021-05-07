@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/context/auth-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -340,7 +339,7 @@
       <workItem from="1620353581985" duration="400000" />
       <workItem from="1620354718450" duration="72000" />
       <workItem from="1620354793984" duration="399000" />
-      <workItem from="1620355222116" duration="427000" />
+      <workItem from="1620355222116" duration="1267000" />
     </task>
     <servers />
   </component>
