@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/UI/UserInput/UserInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/UI/UserInput/UserInput.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/CartButton/CartButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/CartButton/CartButton.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meals.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img/meals.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img/outline_shopping_cart_black_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img/outline_shopping_cart_white_24dp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -96,12 +105,7 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/context/auth-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/context/auth-context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -269,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/11-food-order-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -277,19 +281,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/public/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/07-debugging" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/06-styling-project" />
-      <recent name="$PROJECT_DIR$/CSS_Course/section-2-basics/section-3-boxModel-heightWidth-display-pseudoClass" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users/NewUser" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components/Users" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project/src/components" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -343,7 +347,7 @@
       <workItem from="1620353581985" duration="400000" />
       <workItem from="1620354718450" duration="72000" />
       <workItem from="1620354793984" duration="399000" />
-      <workItem from="1620355222116" duration="6834000" />
+      <workItem from="1620355222116" duration="12653000" />
     </task>
     <servers />
   </component>
@@ -387,10 +391,10 @@
       <screen x="-260" y="-1057" width="1920" height="1057" />
     </state>
     <state x="312" y="-1021" width="1009" height="952" key="dock-window-1/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620365445681" />
-    <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1614916778255">
+    <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1620370796889">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
-    <state x="403" y="76" width="598" height="822" key="find.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1614916778255" />
+    <state x="403" y="76" width="598" height="822" key="find.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620370796889" />
     <state x="355" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1619850548724">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
