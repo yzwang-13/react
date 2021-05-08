@@ -20,17 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/CartButton/CartButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/CartButton/CartButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meals.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img/meals.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img/outline_shopping_cart_black_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img/outline_shopping_cart_white_24dp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -105,7 +94,8 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -347,7 +337,8 @@
       <workItem from="1620353581985" duration="400000" />
       <workItem from="1620354718450" duration="72000" />
       <workItem from="1620354793984" duration="399000" />
-      <workItem from="1620355222116" duration="12653000" />
+      <workItem from="1620355222116" duration="12717000" />
+      <workItem from="1620387247827" duration="5927000" />
     </task>
     <servers />
   </component>
