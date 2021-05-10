@@ -4,27 +4,21 @@ import classes from './Meals.module.css';
 
 const Meals = props => {
 
-    const [orders, updateOrders] = useState({});
-
-    const ordersUpdateHandler = newOrder => {
-        updateOrders(preOrders => {
-            if (preOrders[newOrder.id]) {
-                preOrders[newOrder.id] += newOrder.amount
-                return preOrders;
-            }else {
-                preOrders[newOrder.id] = newOrder.amount;
-                return preOrders
-            }
-        });
-
-        console.log(orders);
-    }
-
-
     return (
         <div className={classes.meals}>
+            <div className={classes.summary}>
+                <h2>Delicious Food, Delivered To You</h2>
+                <p>
+                    Choose your favorite meal from our broad selection of available meals
+                    and enjoy a delicious lunch or dinner at home.
+                </p>
+                <p>
+                    All our meals are cooked with high-quality ingredients, just-in-time and
+                    of course by experienced chefs!
+                </p>
+            </div>
             <ul>
-                {props.meals.map(meal => <Meal updateOrders={ordersUpdateHandler} key={meal.id} id={meal.id} price={meal.price} description={meal.description} name={meal.name} />)}
+                {props.meals.map(meal => <Meal key={meal.id} id={meal.id} price={meal.price} description={meal.description} name={meal.name} />)}
             </ul>
         </div>
     )
