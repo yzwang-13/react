@@ -21,13 +21,16 @@ const Meal = props => {
 
     return (
         <li className={classes.meal}>
-            <h3>{props.name}</h3>
-            <p>Amount</p>
-            <input type="number" onChange={addAmountHandler} value={enteredAmount} min={1} step="any"/>
-            <p className={classes.description}>{props.description}</p>
-            <p className={classes.price}>${props.price}</p>
-
-            <button onClick={submitNewOrder}>+Add</button>
+            <div>
+                <h3>{props.name}</h3>
+                <div className={classes.description}>{props.description}</div>
+                <div className={classes.price}>${props.price.toFixed(2)}</div>
+            </div>
+            <div>
+                <p>Amount</p>
+                <input type="number" onChange={addAmountHandler} value={enteredAmount} min={1} step="any"/>
+                <button onClick={submitNewOrder}>+Add</button>
+            </div>
         </li>
     )
 }
