@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/UI/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/UI/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -96,9 +96,11 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Context/OrderContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/Store/OrderContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/CartButton/CartButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout/Header/CartButton/CartButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meal/Meal.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meals.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Meals/Meals.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/UI/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/UI/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -162,7 +164,7 @@
       <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/play.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/pureimage" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/pureimage(1)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/request.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/request.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../../jvw/tracking/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/result-min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/result-min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../【prospect】什么意思_英语prospect的翻译_音标_读音_用法_例句_在线翻译_有道词典_files/result-wordArticle.js" beforeDir="false" />
@@ -274,19 +276,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/Store" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/07-debugging" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/06-styling-project" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/public/img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -342,7 +344,8 @@
       <workItem from="1620354793984" duration="399000" />
       <workItem from="1620355222116" duration="12717000" />
       <workItem from="1620387247827" duration="10876000" />
-      <workItem from="1620530273216" duration="17964000" />
+      <workItem from="1620530273216" duration="18895000" />
+      <workItem from="1620701013993" duration="2915000" />
     </task>
     <servers />
   </component>

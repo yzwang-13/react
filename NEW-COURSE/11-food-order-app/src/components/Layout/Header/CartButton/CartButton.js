@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import classes from './CartButton.module.css';
 import cartIcon from '../../../../img/outline_shopping_cart_white_24dp.png';
-import OrderContext from "../../../Context/OrderContext";
+import OrderContext from "../../../../Store/OrderContext";
 
 const CartButton = props => {
 

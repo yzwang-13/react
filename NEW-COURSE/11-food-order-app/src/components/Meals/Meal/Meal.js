@@ -1,6 +1,7 @@
 import React, {useContext, useState} from 'react';
 import classes from './Meal.module.css';
-import OrderContext from "../../Context/OrderContext";
+import OrderContext from "../../../Store/OrderContext";
+import Input from "../../UI/Input";
 
 const Meal = props => {
 
@@ -26,11 +27,16 @@ const Meal = props => {
                 <div className={classes.description}>{props.description}</div>
                 <div className={classes.price}>${props.price.toFixed(2)}</div>
             </div>
-            <div>
-                <p>Amount</p>
-                <input type="number" onChange={addAmountHandler} value={enteredAmount} min={1} step="any"/>
-                <button onClick={submitNewOrder}>+Add</button>
-            </div>
+            <Input label='Amount' input={{
+                id: 'price'+'__'+`${props.id}`,
+                type: "number",
+                onChange: addAmountHandler,
+                value: enteredAmount,
+                min: 1,
+                step: "any"
+            }}/>
+            {/*<input type="number" onChange={addAmountHandler} value={enteredAmount} min={1} step="any"/>*/}
+            <button onClick={submitNewOrder}>+Add</button>
         </li>
     )
 }

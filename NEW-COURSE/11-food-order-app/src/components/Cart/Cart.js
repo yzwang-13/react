@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useRef, useState} from 'react';
 import classes from './Cart.module.css';
-import OrderContext from "../Context/OrderContext";
+import OrderContext from "../../Store/OrderContext";
 
 
 const Backdrop = props => {
@@ -9,7 +9,6 @@ const Backdrop = props => {
 
 const ModalOverlay = props => {
     return (
-        <React.Fragment>
             <div className={classes.modal}>
                 {Object.keys(props.orders).map((key, index) => {
                     if (props.orders[key].amount === 0){
@@ -30,7 +29,6 @@ const ModalOverlay = props => {
                 <button onClick={props.cancelCheckOut}>Close</button>
                 <button>Order</button>
             </div>
-        </React.Fragment>
 
 
     )
