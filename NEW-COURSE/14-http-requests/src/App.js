@@ -3,6 +3,7 @@ import React, {useEffect, useState, useCallback} from 'react';
 import MoviesList from './components/MoviesList';
 import './App.css';
 import Spinner from "./UI/Spinner/Spinner";
+import AddMovie from "./components/AddMovie";
 
 function App() {
 
@@ -14,32 +15,49 @@ function App() {
         setIsLoading(true);
         setError(null);
         try {
-            // error url https://swapi.dev/api/film/
-            const response = await fetch('https://swapi.dev/api/films/', {
+            // error url: https://swapi.dev/api/film/
+            // correct dummy url: https://swapi.dev/api/films/
+            // firebase url: https://react-course-http-9f03d-default-rtdb.asia-southeast1.firebasedatabase.app/
+            const response = await fetch('https://react-course-http-9f03d-default-rtdb.asia-southeast1.firebasedatabase.app/movies.json', {
                 method: 'GET',
                 mode: 'cors',
                 headers: {
                     'Content-Type': 'application/json'
                 },
             });
-            console.log(response);
+            // console.log(response);
             if (!response.ok){
                 throw new Error('Ahh, shit Something went wrong');
             }
 
             const data = await response.json();
+            console.log(data)
 
             // do the transform data before displaying to match our format
             // transform the data to only what we need
-            const movies = data.results.map(movie => {
-                return {
-                    id: movie.episode_id,
-                    releaseDate: movie.release_date,
-                    openingText: movie.opening_crawl,
-                    title: movie.title
-                }
-            })
-            setMovies(movies);
+            // const movies = data.results.map(movie => {
+            //     return {
+            //         id: movie.episode_id,
+            //         releaseDate: movie.release_date,
+            //         openingText: movie.opening_crawl,
+            //         title: movie.title
+            //     }
+            // })
+
+            // firebase database
+            const loadedArray = [];
+
+            for (const key in data){
+                loadedArray.push({
+                    id: key,
+                    title: data[key].title,
+                    openingText: data[key].openingText,
+                    releaseDate: data[key].releaseDate
+                });
+            }
+
+            console.log(loadedArray)
+            setMovies(loadedArray);
         } catch (e) {
             // updating the error state
             setError(e.message);
@@ -55,8 +73,26 @@ function App() {
         fetchMoviesHandler();
     }, [fetchMoviesHandler])
 
+
+  const addMovieHandler = async (movie) => {
+        console.log(movie);
+        // sending a post request to firebase api
+       const response = (await fetch('https://react-course-http-9f03d-default-rtdb.asia-southeast1.firebasedatabase.app/movies.json', {
+           method: 'POST',
+           mode: 'cors',
+           headers: {
+               'Content-Type': 'application/json'
+           },
+           body: JSON.stringify(movie)
+       })).json();
+      // console.log(response)
+    }
+
     return (
         <React.Fragment>
+            <section>
+                <AddMovie onAddMovie={addMovieHandler} />
+            </section>
             <section>
                 <button onClick={fetchMoviesHandler}>Fetch Movies</button>
             </section>
