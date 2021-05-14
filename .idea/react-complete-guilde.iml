@@ -3,6 +3,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/NEW-COURSE/11-food-order-app/public" />
+      <excludeFolder url="file://$MODULE_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/public" />
+      <excludeFolder url="file://$MODULE_DIR$/NEW-COURSE/14-http-requests/public" />
+      <excludeFolder url="file://$MODULE_DIR$/NEW-COURSE/15-custom-hooks-more-realistic-scenario/public" />
+      <excludeFolder url="file://$MODULE_DIR$/NEW-COURSE/15-custom-hooks/public" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
