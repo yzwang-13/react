@@ -22,8 +22,6 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/src/components/Demo/DemoOutput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/src/components/Demo/MyParagraph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -98,8 +96,8 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components/MoviesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -267,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/14-http-requests" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -275,19 +273,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/07-debugging" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NEW-COURSE" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/Store" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/img" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components/Layout" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/12-Behind-the-scenes-of-react" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/09-useEffects-Reducers-Context" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/08-practice-complete-project" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -349,6 +347,7 @@
       <workItem from="1620815636977" duration="3519000" />
       <workItem from="1620868764427" duration="2040000" />
       <workItem from="1620954103328" duration="17000" />
+      <workItem from="1620954172281" duration="2128000" />
     </task>
     <servers />
   </component>
