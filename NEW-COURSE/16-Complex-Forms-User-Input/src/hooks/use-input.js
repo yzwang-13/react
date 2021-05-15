@@ -9,6 +9,7 @@ const useInput = (validateValueFunc = ()=>{}) => {
     const hasError = !valueIsValid && isTouched
 
     const valueChangeHandler = (event) => {
+        setIsTouched(true)
         setEnteredValue(event.target.value);
     }
 

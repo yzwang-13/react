@@ -22,7 +22,6 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/hooks/use-input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -97,8 +96,9 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/components/SimpleInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/components/SimpleInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/components/BasicForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/components/BasicForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/hooks/use-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/hooks/use-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/hooks/use-practice-hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input/src/hooks/use-practice-hook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -350,7 +350,7 @@
       <workItem from="1620868764427" duration="2040000" />
       <workItem from="1620954103328" duration="17000" />
       <workItem from="1620954172281" duration="16248000" />
-      <workItem from="1621039334188" duration="9177000" />
+      <workItem from="1621039334188" duration="12809000" />
     </task>
     <servers />
   </component>
@@ -394,10 +394,15 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619748897763" />
-    <state x="513" y="-1019" width="1094" height="858" key="dock-window-1" timestamp="1620626227924">
+    <state x="744" y="-1003" width="899" height="646" key="dock-window-1" timestamp="1621055558705">
       <screen x="-260" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="744" y="-1003" width="899" height="646" key="dock-window-1/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621055558705" />
     <state x="513" y="-1019" width="1094" height="858" key="dock-window-1/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620626227924" />
+    <state x="-200" y="-990" width="899" height="646" key="dock-window-2" timestamp="1621055558706">
+      <screen x="-260" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-200" y="-990" width="899" height="646" key="dock-window-2/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621055558706" />
     <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1620370796889">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
