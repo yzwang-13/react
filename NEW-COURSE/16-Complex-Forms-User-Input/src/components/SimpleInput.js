@@ -7,43 +7,53 @@ import {useRef, useState} from 'react';
 
 const SimpleInput = (props) => {
     const [inputValue, setInputValue] = useState('');
-    const [enteredNameIsValid, setEnteredNameIsValid] = useState(false);
     const [enteredNameTouched, setEnteredNameTouched] = useState(false);
-    const inputRef = useRef();
+    // const inputRef = useRef();
+
+    // Whenever a new value is entered we ensure that this enteredNameIsValid
+    // will always take into account the latest inputValue and enteredNameTouched state.
+    //
+    // Because whenever one of these two states changes, this component function gets re-rendered.
+    const enteredNameIsValid = inputValue.trim() !== '';
+    const nameInputInvalid = !enteredNameIsValid && enteredNameTouched
+    const nameInputClasses = nameInputInvalid ? 'form-control invalid' : 'form-control';
 
     const formSubmitHandler = event => {
         event.preventDefault();
 
         setEnteredNameTouched(true);
 
-        // use trim() to remove and white spaces at the beginning and end
-        if (inputValue.trim() === '') {
-            setEnteredNameIsValid(false);
+        // // use trim() to remove and white spaces at the beginning and end
+        // if (inputValue.trim() === '') {
+        //     setEnteredNameIsValid(false);
+        //     return;
+        // }
+
+        if (!enteredNameIsValid) {
             return;
         }
 
-        setEnteredNameIsValid(true);
-        console.log(inputRef.current.value);
+
+        // setEnteredNameIsValid(true);
+        console.log(inputValue);
+        setInputValue('');
+        setEnteredNameTouched(false);
     }
 
     const inputChangeHandler = (event) => {
         // console.log(event.target.value);
         setInputValue(event.target.value);
-        if (event.target.value.trim() !== ''){
-            setEnteredNameIsValid(true);
-        }
+        // if (event.target.value.trim() !== ''){
+        //     setEnteredNameIsValid(true);
+        // }
 
     }
 
     const inputBlurHandler = event => {
         // click in, click out, leave input empty
         setEnteredNameTouched(true);
-        if (inputValue.trim() === ''){
-            setEnteredNameIsValid(false);
-        }
     }
 
-    const nameInputClasses = !enteredNameIsValid && enteredNameTouched ? 'form-control invalid' : 'form-control'
 
     return (
         <form onSubmit={formSubmitHandler}>
@@ -54,9 +64,9 @@ const SimpleInput = (props) => {
                     id='name'
                     value={inputValue}
                     onChange={inputChangeHandler}
-                    ref={inputRef}
+                    // ref={inputRef}
                     onBlur={inputBlurHandler}/>
-                {!enteredNameIsValid && enteredNameTouched && <p className='error-text'>Name must not be empty</p>}
+                {nameInputInvalid && <p className='error-text'>Name must not be empty</p>}
             </div>
             <div className="form-actions">
                 <button>Submit</button>
