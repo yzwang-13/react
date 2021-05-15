@@ -1,4 +1,4 @@
-import {useRef, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 // Validation includs:
 // (1): A user cannot submit the form when input is empty
@@ -8,6 +8,7 @@ import {useRef, useState} from 'react';
 const SimpleInput = (props) => {
     const [inputValue, setInputValue] = useState('');
     const [enteredNameTouched, setEnteredNameTouched] = useState(false);
+    const [formIsValid, setFormIsValid] = useState(false);
     // const inputRef = useRef();
 
     // Whenever a new value is entered we ensure that this enteredNameIsValid
@@ -17,6 +18,14 @@ const SimpleInput = (props) => {
     const enteredNameIsValid = inputValue.trim() !== '';
     const nameInputInvalid = !enteredNameIsValid && enteredNameTouched
     const nameInputClasses = nameInputInvalid ? 'form-control invalid' : 'form-control';
+
+    useEffect(()=> {
+        if (enteredNameIsValid){
+            setFormIsValid(true);
+        }else {
+            setFormIsValid(false);
+        }
+    },[enteredNameIsValid])
 
     const formSubmitHandler = event => {
         event.preventDefault();
@@ -29,7 +38,7 @@ const SimpleInput = (props) => {
         //     return;
         // }
 
-        if (!enteredNameIsValid) {
+        if (!formIsValid) {
             return;
         }
 
@@ -69,7 +78,7 @@ const SimpleInput = (props) => {
                 {nameInputInvalid && <p className='error-text'>Name must not be empty</p>}
             </div>
             <div className="form-actions">
-                <button>Submit</button>
+                <button disabled={!formIsValid}>Submit</button>
             </div>
         </form>
     );
