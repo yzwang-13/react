@@ -1,4 +1,5 @@
 import React, {useReducer, useState} from 'react';
+import useHttp from "../hooks/use-http";
 
 const OrderContext = React.createContext({
     checkOut: false,
@@ -113,10 +114,58 @@ export const OrderContextProvider = props => {
         )
     }
 
+    // const requestConfig = {
+    //     url: 'https://react-course-http-9f03d-default-rtdb.asia-southeast1.firebasedatabase.app/movies.json',
+    //     config: {
+    //         method: 'GET',
+    //         mode: 'cors',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //     }
+    // }
+    // requestMeals(requestConfig);
+
     const checkoutHandler = event => {
         event.preventDefault();
-        console.log(event.target.name.value);
+        // console.log(event.target.name.value);
+        // console.log(event.target.street.value);
+        // console.log(event.target.postal.value);
+        // console.log(event.target.city.value);
+
+        const orderData = {
+            order: ordersState.orders,
+            totalPrice: ordersState.totalPrice,
+            contact: {
+                name: event.target.name.value,
+                street: event.target.street.value,
+                postal: event.target.postal.value,
+                city: event.target.city.value
+            }
+        }
+
+        const requestConfig = {
+            url: 'https://react-course-http-9f03d-default-rtdb.asia-southeast1.firebasedatabase.app/orders.json',
+            config: {
+                method: 'POST',
+                mode: 'cors',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(orderData)
+            }
+        }
+
+        requestMeals(requestConfig);
     }
+
+    const handleResponse = (response) => {
+        console.log(response);
+    }
+
+    const {
+        sendRequest: requestMeals
+    } = useHttp(handleResponse);
 
     return <OrderContext.Provider value={
         {
