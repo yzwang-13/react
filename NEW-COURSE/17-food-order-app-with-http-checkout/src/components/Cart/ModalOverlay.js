@@ -16,7 +16,7 @@ const ModalOverlay = props => {
         onEnteredValueChange: nameChangeHandler
     } = useFrom(value => value.trim().length !== 0);
 
-    const nameInputClass = nameHasError ? `${classes.invalid}` : "";
+    const nameInputClass = nameHasError ? `${classes.invalid} ${classes.control}` : `${classes.control}`;
 
     return (
         <div className={classes.modal}>
@@ -43,15 +43,15 @@ const ModalOverlay = props => {
                            onBlur={nameBlur}
                     />
                 </div>
-                <div>
+                <div className={classes.control}>
                     <label htmlFor="street">Street</label>
                     <input type="text" id='street'/>
                 </div>
-                <div>
+                <div className={classes.control}>
                     <label htmlFor="postal">Postal Code</label>
                     <input type="text" id='postal'/>
                 </div>
-                <div>
+                <div className={classes.control}>
                     <label htmlFor="city">City</label>
                     <input type="text" id='city'/>
                 </div>

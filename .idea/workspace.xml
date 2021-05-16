@@ -22,7 +22,6 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/hooks/use-http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -98,8 +97,8 @@
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/Store/OrderContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/Store/OrderContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/Cart.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/ModalOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/ModalOverlay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -352,7 +351,7 @@
       <workItem from="1620954103328" duration="17000" />
       <workItem from="1620954172281" duration="16248000" />
       <workItem from="1621039334188" duration="13085000" />
-      <workItem from="1621127982166" duration="10429000" />
+      <workItem from="1621127982166" duration="11844000" />
     </task>
     <servers />
   </component>
