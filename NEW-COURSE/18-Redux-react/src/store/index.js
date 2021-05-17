@@ -11,4 +11,4 @@ const counterReducer = (oldState = {counter: 0}, action) => {
 
 const store = redux.createStore(counterReducer);
 
-
+export default store;
