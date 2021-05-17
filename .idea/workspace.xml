@@ -22,6 +22,7 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux/redux-demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -96,9 +97,6 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/Cart.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/ModalOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout/src/components/Cart/ModalOverlay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -275,19 +273,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/Store" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/15-custome-hooks-more-realistic-scenario" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/15-custom-hooks" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/Store" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -351,7 +349,8 @@
       <workItem from="1620954103328" duration="17000" />
       <workItem from="1620954172281" duration="16248000" />
       <workItem from="1621039334188" duration="13085000" />
-      <workItem from="1621127982166" duration="11844000" />
+      <workItem from="1621127982166" duration="12010000" />
+      <workItem from="1621220384892" duration="4218000" />
     </task>
     <servers />
   </component>
