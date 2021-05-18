@@ -27,7 +27,7 @@ const counterSlice = createSlice({
 // use configureStore passing an object
 const store = configureStore({
     // reducer: counterSlice.reducer
-    reducer: {counterRedecer: counterSlice.reducer}
+    reducer: counterSlice.reducer
 })
 
 // export access to actions(dispatch actions)
