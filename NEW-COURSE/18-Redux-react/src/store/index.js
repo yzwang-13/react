@@ -1,14 +1,38 @@
-import redux from 'redux';
+import {createStore} from 'redux';
 
-const counterReducer = (oldState = {counter: 0}, action) => {
+const initialState = {counter: 0, showCounter: false};
+
+const counterReducer = (oldState = initialState, action) => {
     if (action.type === 'increment'){
-        return {counter: oldState.counter + 1};
-    } else if (action.type === 'decrement'){
-        return {counter: oldState.counter - 1};
+        return {
+            counter: oldState.counter + 1,
+            showCounter: oldState.showCounter
+        };
+    }
+
+    if (action.type === 'decrement'){
+        return {
+            counter: oldState.counter - 1,
+            showCounter: oldState.showCounter
+        };
+    }
+
+    if (action.type === 'increase') {
+        return {
+            counter: oldState.counter + action.amount,
+            showCounter: oldState.showCounter
+        }
+    }
+
+    if (action.type === 'toggle'){
+        return {
+            ...oldState,
+            showCounter: !oldState.showCounter,
+        }
     }
     return oldState;
 }
 
-const store = redux.createStore(counterReducer);
+const store = createStore(counterReducer);
 
 export default store;
