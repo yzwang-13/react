@@ -22,8 +22,6 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/store/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/store/counter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -98,11 +96,6 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/components/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/components/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/components/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/store/index-redux-tool-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/18-Redux-react-multiple-redux-slices/src/store/index-redux-tool-kit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -357,7 +350,8 @@
       <workItem from="1621039334188" duration="13085000" />
       <workItem from="1621127982166" duration="12010000" />
       <workItem from="1621220384892" duration="5820000" />
-      <workItem from="1621301336993" duration="10939000" />
+      <workItem from="1621301336993" duration="11108000" />
+      <workItem from="1621417851662" duration="325000" />
     </task>
     <servers />
   </component>
