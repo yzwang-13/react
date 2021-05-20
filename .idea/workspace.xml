@@ -22,6 +22,10 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/cartSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/uiSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -96,6 +100,14 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/CartButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/CartButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Shop/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Shop/ProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Shop/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -264,7 +276,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -272,19 +284,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux-react" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NEW-COURSE" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/11-food-order-app/src/Store" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux-react" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/16-Complex-Forms-User-Input" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -351,7 +363,9 @@
       <workItem from="1621127982166" duration="12010000" />
       <workItem from="1621220384892" duration="5820000" />
       <workItem from="1621301336993" duration="11108000" />
-      <workItem from="1621417851662" duration="325000" />
+      <workItem from="1621417851662" duration="1023000" />
+      <workItem from="1621419204790" duration="7698000" />
+      <workItem from="1621492915816" duration="3023000" />
     </task>
     <servers />
   </component>
@@ -391,14 +405,16 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="175" y="82" key="SettingsEditor/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1618816282879" />
-    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619748897763">
-      <screen x="0" y="23" width="1395" height="877" />
+    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621421766602">
+      <screen x="0" y="23" width="1394" height="877" />
     </state>
+    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621421766602" />
     <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619748897763" />
-    <state x="744" y="-1003" width="899" height="646" key="dock-window-1" timestamp="1621067447738">
-      <screen x="-260" y="-1057" width="1920" height="1057" />
+    <state x="158" y="101" width="1113" height="583" key="dock-window-1" timestamp="1621499002510">
+      <screen x="0" y="23" width="1394" height="877" />
     </state>
-    <state x="744" y="-1003" width="899" height="646" key="dock-window-1/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621067447738" />
+    <state x="158" y="101" width="1113" height="583" key="dock-window-1/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621499002510" />
+    <state x="300" y="73" width="909" height="583" key="dock-window-1/0.23.1394.877@0.23.1394.877" timestamp="1621485856654" />
     <state x="513" y="-1019" width="1094" height="858" key="dock-window-1/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620626227924" />
     <state x="471" y="143" width="899" height="646" key="dock-window-2" timestamp="1621067447739">
       <screen x="0" y="23" width="1394" height="877" />
@@ -408,9 +424,10 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="403" y="76" width="598" height="822" key="find.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620370796889" />
-    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1619850548724">
-      <screen x="0" y="23" width="1395" height="877" />
+    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1621498938984">
+      <screen x="0" y="23" width="1394" height="877" />
     </state>
+    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621498938984" />
     <state x="355" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619850548724" />
   </component>
 </project>
