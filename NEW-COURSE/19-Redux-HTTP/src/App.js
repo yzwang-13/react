@@ -27,7 +27,7 @@ function App() {
 
     // Way 2 to send Http Request
     useEffect( ()=> {
-        if (!isInitial){
+        if (!isInitial && cart.changed === true){
             console.log(cart.totalQuantity);
             dispatch(sendCartData(cart))
         }else {

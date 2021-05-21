@@ -22,9 +22,6 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/UI/Notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/UI/Notification.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/cart-actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -100,9 +97,7 @@
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/components/Cart/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/cartSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/cartSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/uiSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP/src/store/uiSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -360,7 +355,8 @@
       <workItem from="1621301336993" duration="11108000" />
       <workItem from="1621417851662" duration="1023000" />
       <workItem from="1621419204790" duration="7698000" />
-      <workItem from="1621492915816" duration="15609000" />
+      <workItem from="1621492915816" duration="15782000" />
+      <workItem from="1621591148913" duration="841000" />
     </task>
     <servers />
   </component>

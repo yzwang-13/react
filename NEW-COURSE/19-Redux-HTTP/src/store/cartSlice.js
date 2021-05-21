@@ -6,7 +6,7 @@ import {uiSliceActions} from "./uiSlice";
 //     '456': {title: 'Test Item', id: '456', quantity: 3, total: 18, price: 2}
 // }
 
-const initialCartState = {items: {}, totalQuantity: 0};
+const initialCartState = {items: {}, totalQuantity: 0, changed: false};
 
 
 const cartSlice = createSlice({
@@ -41,6 +41,7 @@ const cartSlice = createSlice({
                     }
                 }
             }
+            state.changed = true;
             state.totalQuantity += item.amount;
         },
         init: (state, action) => {
@@ -60,6 +61,7 @@ const cartSlice = createSlice({
 
                 state.totalQuantity = action.payload.cart.totalQuantity;
                 state.items = action.payload.cart.items;
+                state.changde = false;
 
             // }
         }
