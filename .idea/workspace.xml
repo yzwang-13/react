@@ -22,12 +22,10 @@
     <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src/components/MainHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src/components/MainHeader.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src/pages/ProductDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src/pages/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src/pages/Welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/layout/MainNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/store/comment-slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/store/notes-slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -102,6 +100,19 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/comments/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/comments/NewCommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/comments/NewCommentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/layout/MainNavigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/HighlightedQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/HighlightedQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/QuoteForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/QuoteForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/QuoteItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/QuoteItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/QuoteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/components/quotes/QuoteList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-basics/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-basics/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-basics/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-React-Router-basics/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -270,7 +281,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/20-React-Router" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -279,18 +290,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src" />
       <recent name="$PROJECT_DIR$/NEW-COURSE" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP" />
       <recent name="$PROJECT_DIR$/NEW-COURSE" />
       <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux-react" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -360,7 +371,8 @@
       <workItem from="1621417851662" duration="1023000" />
       <workItem from="1621419204790" duration="7698000" />
       <workItem from="1621492915816" duration="15782000" />
-      <workItem from="1621591148913" duration="6920000" />
+      <workItem from="1621591148913" duration="7686000" />
+      <workItem from="1621654013108" duration="10734000" />
     </task>
     <servers />
   </component>
@@ -396,22 +408,22 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="238" y="159" width="893" height="619" key="DiffContextDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1617862425999" />
-    <state width="615" height="209" key="GridCell.Tab.0.bottom" timestamp="1621595534323">
+    <state width="615" height="209" key="GridCell.Tab.0.bottom" timestamp="1621606050268">
       <screen x="0" y="23" width="1394" height="877" />
     </state>
-    <state width="615" height="209" key="GridCell.Tab.0.bottom/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621595534323" />
-    <state width="615" height="209" key="GridCell.Tab.0.center" timestamp="1621595534322">
+    <state width="615" height="209" key="GridCell.Tab.0.bottom/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050268" />
+    <state width="615" height="209" key="GridCell.Tab.0.center" timestamp="1621606050267">
       <screen x="0" y="23" width="1394" height="877" />
     </state>
-    <state width="615" height="209" key="GridCell.Tab.0.center/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621595534322" />
-    <state width="615" height="209" key="GridCell.Tab.0.left" timestamp="1621595534322">
+    <state width="615" height="209" key="GridCell.Tab.0.center/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050267" />
+    <state width="615" height="209" key="GridCell.Tab.0.left" timestamp="1621606050266">
       <screen x="0" y="23" width="1394" height="877" />
     </state>
-    <state width="615" height="209" key="GridCell.Tab.0.left/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621595534322" />
-    <state width="615" height="209" key="GridCell.Tab.0.right" timestamp="1621595534323">
+    <state width="615" height="209" key="GridCell.Tab.0.left/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050266" />
+    <state width="615" height="209" key="GridCell.Tab.0.right" timestamp="1621606050267">
       <screen x="0" y="23" width="1394" height="877" />
     </state>
-    <state width="615" height="209" key="GridCell.Tab.0.right/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621595534323" />
+    <state width="615" height="209" key="GridCell.Tab.0.right/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050267" />
     <state x="175" y="82" key="SettingsEditor" timestamp="1618816282879">
       <screen x="0" y="23" width="1395" height="877" />
     </state>
