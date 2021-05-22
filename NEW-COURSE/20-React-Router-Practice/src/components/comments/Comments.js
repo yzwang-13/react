@@ -7,6 +7,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {commentActions} from "../../store/comment-slice";
 
 const Comments = () => {
+    console.log('comments')
     const [isAddingComment, setIsAddingComment] = useState(false);
     const dispatch = useDispatch()
     const comments = useSelector(state => state.comments.comments);

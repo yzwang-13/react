@@ -11,6 +11,11 @@ const notesSlice = createSlice({
         queriedNote: {}
     },
     reducers: {
+        init: (state, action) => {
+            const init_notes = action.payload;
+            state.notes = init_notes.notes;
+            state.queriedNote = init_notes.queriedNote;
+        },
         addNote: (state, action) => {
             const note = action.payload;
             const newNote = {
