@@ -29,6 +29,7 @@ const getNotesRequest = async (dispatch, getState) => {
 export const postANote = (note) => {
     return async (dispatch, getState) => {
         // console.log(getState().notes.queriedNote);
+        dispatch(httpStatusSliceActions.changePostNoteState());
         const response = await fetch('https://react-course-http-9f03d-default-rtdb.asia-southeast1.firebasedatabase.app/notes.json',
             {
                 method: 'POST',

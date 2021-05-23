@@ -17,7 +17,7 @@ const NewCommentForm = (props) => {
     const submitFormHandler = (event) => {
         event.preventDefault();
         const noteId = params.noteId;
-        console.log(noteId);
+        // console.log(noteId);
 
         const payload = {
             noteId: noteId,

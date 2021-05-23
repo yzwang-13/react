@@ -3,11 +3,7 @@ import {createSlice} from "@reduxjs/toolkit";
 const notesSlice = createSlice({
     name: 'notesSlice',
     initialState: {
-        notes: [{
-            id: "123",
-            author: 'wilson',
-            text: ' Today is a good day'
-        }],
+        notes: [],
         queriedNote: {}
     },
     reducers: {
