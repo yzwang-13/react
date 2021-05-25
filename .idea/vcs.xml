@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/react" vcs="Git" />
   </component>
 </project>

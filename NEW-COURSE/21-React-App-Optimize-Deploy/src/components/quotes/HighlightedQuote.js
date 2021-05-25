@@ -8,14 +8,17 @@ import Comments from "../comments/Comments";
 const HighlightedQuote = (props) => {
 
 
+    console.log("HighlightedQuote")
     const dispatch = useDispatch();
     const note = useSelector(state => state.notes.queriedNote);
     const params = useParams();
     const noteId = params.noteId;
 
-    useEffect(()=> {
-        dispatch(notesActions.getNote({noteId: noteId}));
-    }, [noteId, dispatch])
+    console.log(noteId)
+    dispatch(notesActions.getNote({noteId: noteId}));
+    // useEffect(()=> {
+    //
+    // }, [noteId, dispatch])
 
     return (
         <figure className={classes.quote}>

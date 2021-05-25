@@ -6,6 +6,8 @@ import {useRouteMatch} from 'react-router-dom';
 
 const DetailedNote = porps => {
 
+    console.log("DetailedNote")
+
     const params = useParams();
 
     const match = useRouteMatch();

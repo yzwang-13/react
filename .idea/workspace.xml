@@ -1,67 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="">
+    <list default="true" id="efcde680-6aeb-4848-ac3c-28b8ebf3a08d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/UI/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/UI/Card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/UI/LoadingSpinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/UI/LoadingSpinner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/CommentItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/CommentItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/Comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/Comments.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/CommentsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/CommentsList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/NewCommentForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/comments/NewCommentForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/layout/MainNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/layout/MainNavigation.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/HighlightedQuote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/HighlightedQuote.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/NoQuotesFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/NoQuotesFound.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/QuoteForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/QuoteForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/QuoteItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/QuoteItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/QuoteList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/QuoteList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/all-notes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/detailed-note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/new-note.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/store/comment-slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/store/http-status-slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/store/notes-actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/store/notes-slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -135,6 +78,17 @@
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/oopMasterChallenge.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../java_programm/oopMasterChallenge/src/com/wilson/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../react学习笔记.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react学习笔记.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/20-Max-finished-React-Router-Practice/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/20-Max-finished-React-Router-Practice/src/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/HighlightedQuote.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/components/quotes/HighlightedQuote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/all-notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/all-notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/detailed-note.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/21-React-App-Optimize-Deploy/src/pages/detailed-note.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -270,211 +224,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBowerSettings">
-    <node-interpreter value="project" />
-    <bower-package value="" />
-    <bower.json value="" />
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectId" id="1pGVvT0cPqXiXxAXaHe4vQETeLY" />
+  <component name="ProjectId" id="1t0iyept0jmu34Ks86HnNjSk85Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NEW-COURSE/22-Authentication" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NEW-COURSE" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router-Practice" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/19-Redux-HTTP" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/18-Redux-react" />
+      <recent name="$PROJECT_DIR$/NEW-COURSE/22-Authentication" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NEW-COURSE" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/20-React-Router/src" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/17-food-order-app-with-http-checkout" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src/components" />
-      <recent name="$PROJECT_DIR$/NEW-COURSE/14-http-requests/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1732d018-54af-4aec-ab67-42941d515e9f" name="Default Changelist" comment="" />
-      <created>1614809646460</created>
+      <changelist id="efcde680-6aeb-4848-ac3c-28b8ebf3a08d" name="Default Changelist" comment="" />
+      <created>1621912664618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614809646460</updated>
-      <workItem from="1614809648389" duration="132000" />
-      <workItem from="1614809807396" duration="60000" />
-      <workItem from="1614809878411" duration="1000" />
-      <workItem from="1614809890657" duration="3862000" />
-      <workItem from="1614899739651" duration="10849000" />
-      <workItem from="1614999856233" duration="840000" />
-      <workItem from="1615084778467" duration="790000" />
-      <workItem from="1615086338607" duration="4846000" />
-      <workItem from="1615530760848" duration="3177000" />
-      <workItem from="1615586773727" duration="21000" />
-      <workItem from="1615586808222" duration="3000" />
-      <workItem from="1615586827059" duration="14411000" />
-      <workItem from="1615621014573" duration="815000" />
-      <workItem from="1615774532595" duration="5190000" />
-      <workItem from="1617086545839" duration="183000" />
-      <workItem from="1617086741296" duration="3451000" />
-      <workItem from="1617168914168" duration="12413000" />
-      <workItem from="1617519620956" duration="830000" />
-      <workItem from="1617861949974" duration="2218000" />
-      <workItem from="1618638752320" duration="521000" />
-      <workItem from="1618740415373" duration="1251000" />
-      <workItem from="1618815699265" duration="255000" />
-      <workItem from="1618815974548" duration="139000" />
-      <workItem from="1618816127315" duration="8483000" />
-      <workItem from="1618899900810" duration="10310000" />
-      <workItem from="1618974645899" duration="7342000" />
-      <workItem from="1619092641816" duration="1647000" />
-      <workItem from="1619348527544" duration="628000" />
-      <workItem from="1619394955183" duration="8551000" />
-      <workItem from="1619668611425" duration="5385000" />
-      <workItem from="1619747369926" duration="5875000" />
-      <workItem from="1619767236735" duration="3521000" />
-      <workItem from="1619839220256" duration="14205000" />
-      <workItem from="1619946727999" duration="2884000" />
-      <workItem from="1619961443919" duration="373000" />
-      <workItem from="1620025112968" duration="4034000" />
-      <workItem from="1620097896136" duration="443000" />
-      <workItem from="1620182826664" duration="6940000" />
-      <workItem from="1620221771986" duration="3000" />
-      <workItem from="1620276891177" duration="6114000" />
-      <workItem from="1620353581985" duration="400000" />
-      <workItem from="1620354718450" duration="72000" />
-      <workItem from="1620354793984" duration="399000" />
-      <workItem from="1620355222116" duration="12717000" />
-      <workItem from="1620387247827" duration="10876000" />
-      <workItem from="1620530273216" duration="18895000" />
-      <workItem from="1620701013993" duration="2915000" />
-      <workItem from="1620715159657" duration="1279000" />
-      <workItem from="1620815636977" duration="3519000" />
-      <workItem from="1620868764427" duration="2040000" />
-      <workItem from="1620954103328" duration="17000" />
-      <workItem from="1620954172281" duration="16248000" />
-      <workItem from="1621039334188" duration="13085000" />
-      <workItem from="1621127982166" duration="12010000" />
-      <workItem from="1621220384892" duration="5820000" />
-      <workItem from="1621301336993" duration="11108000" />
-      <workItem from="1621417851662" duration="1023000" />
-      <workItem from="1621419204790" duration="7698000" />
-      <workItem from="1621492915816" duration="15782000" />
-      <workItem from="1621591148913" duration="7686000" />
-      <workItem from="1621654013108" duration="11464000" />
-      <workItem from="1621678570399" duration="6418000" />
-      <workItem from="1621739059245" duration="7509000" />
+      <updated>1621912664618</updated>
+      <workItem from="1621912666037" duration="2209000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="331" y="147" key="#Inspections" timestamp="1620561067166">
-      <screen x="0" y="23" width="1395" height="877" />
-    </state>
-    <state x="331" y="147" key="#Inspections/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620561067166" />
-    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619851690511">
-      <screen x="0" y="23" width="1395" height="877" />
-    </state>
-    <state x="537" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619851690511" />
-    <state x="149" y="53" key="CommitChangelistDialog2" timestamp="1617862028032">
-      <screen x="0" y="23" width="1395" height="877" />
-    </state>
-    <state x="149" y="53" key="CommitChangelistDialog2/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1617862028032" />
-    <state x="238" y="159" width="893" height="619" key="DiffContextDialog" timestamp="1617862425999">
-      <screen x="0" y="23" width="1395" height="877" />
-    </state>
-    <state x="238" y="159" width="893" height="619" key="DiffContextDialog/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1617862425999" />
-    <state width="615" height="209" key="GridCell.Tab.0.bottom" timestamp="1621606050268">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state width="615" height="209" key="GridCell.Tab.0.bottom/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050268" />
-    <state width="615" height="209" key="GridCell.Tab.0.center" timestamp="1621606050267">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state width="615" height="209" key="GridCell.Tab.0.center/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050267" />
-    <state width="615" height="209" key="GridCell.Tab.0.left" timestamp="1621606050266">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state width="615" height="209" key="GridCell.Tab.0.left/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050266" />
-    <state width="615" height="209" key="GridCell.Tab.0.right" timestamp="1621606050267">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state width="615" height="209" key="GridCell.Tab.0.right/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621606050267" />
-    <state x="175" y="82" key="SettingsEditor" timestamp="1618816282879">
-      <screen x="0" y="23" width="1395" height="877" />
-    </state>
-    <state x="175" y="82" key="SettingsEditor/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1618816282879" />
-    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621421766602">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621421766602" />
-    <state x="409" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619748897763" />
-    <state x="158" y="101" width="1113" height="583" key="dock-window-1" timestamp="1621499002510">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state x="158" y="101" width="1113" height="583" key="dock-window-1/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621499002510" />
-    <state x="300" y="73" width="909" height="583" key="dock-window-1/0.23.1394.877@0.23.1394.877" timestamp="1621485856654" />
-    <state x="513" y="-1019" width="1094" height="858" key="dock-window-1/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620626227924" />
-    <state x="471" y="143" width="899" height="646" key="dock-window-2" timestamp="1621067447739">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state x="471" y="143" width="899" height="646" key="dock-window-2/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621067447739" />
-    <state x="403" y="76" width="598" height="822" key="find.popup" timestamp="1620370796889">
-      <screen x="0" y="23" width="1395" height="877" />
-    </state>
-    <state x="403" y="76" width="598" height="822" key="find.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1620370796889" />
-    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1621498938984">
-      <screen x="0" y="23" width="1394" height="877" />
-    </state>
-    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1621498938984" />
-    <state x="355" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1395.877/-260.-1057.1920.1057@0.23.1395.877" timestamp="1619850548724" />
   </component>
 </project>
