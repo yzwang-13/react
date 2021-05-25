@@ -4,6 +4,7 @@
     <list default="true" id="efcde680-6aeb-4848-ac3c-28b8ebf3a08d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/store/auth-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -82,6 +83,9 @@
       <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Auth/AuthForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Layout/MainNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Layout/MainNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Profile/ProfileForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Profile/ProfileForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -217,6 +221,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -249,7 +260,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621912664618</updated>
-      <workItem from="1621912666037" duration="3212000" />
+      <workItem from="1621912666037" duration="6083000" />
     </task>
     <servers />
   </component>
