@@ -80,9 +80,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/components/Auth/AuthForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/store/auth-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/22-Authentication/src/store/auth-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -257,11 +254,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621912664618</updated>
-      <workItem from="1621912666037" duration="10345000" />
+      <workItem from="1621912666037" duration="10457000" />
+      <workItem from="1621998876341" duration="984000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622001388083">
+      <screen x="0" y="23" width="1394" height="877" />
+    </state>
+    <state x="451" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1394.877/-260.-1057.1920.1057@0.23.1394.877" timestamp="1622001388083" />
   </component>
 </project>
