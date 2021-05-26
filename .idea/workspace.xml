@@ -4,7 +4,6 @@
     <list default="true" id="efcde680-6aeb-4848-ac3c-28b8ebf3a08d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../jvw/tracking/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../jvw/trackingTest/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-COURSE/23-nextjs/nextjs-course/pages/news/[newsId].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc学位公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.cauc成绩单公证.pdf.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Red Rule – Lawyers Attorneys and Law Firm HTML Template.htm" beforeDir="false" />
@@ -81,7 +80,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Course/section-3-boxModel-heightWidth-display-pseudoClass/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-COURSE/23-nextjs/nextjs-course/pages/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/23-nextjs/nextjs-course/pages/news/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-COURSE/23-nextjs/nextjs-course/pages/news/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/NEW-COURSE/23-nextjs/nextjs-course/pages/news/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../section-5-react-complete-guide/src/App.css" afterDir="false" />
@@ -259,7 +258,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621912664618</updated>
       <workItem from="1621912666037" duration="10457000" />
-      <workItem from="1621998876341" duration="2080000" />
+      <workItem from="1621998876341" duration="2486000" />
     </task>
     <servers />
   </component>
